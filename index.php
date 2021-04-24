@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ressources/style.css">
 
     <title>Autocompletion</title>
 </head>
@@ -34,7 +34,7 @@
     <footer class="">
         <div class="">© 2021 DEJOUX JEREMY Copyright</div>
 
-        <script src="script.js"></script>
+        <script src="ressources/script.js"></script>
     </footer>
 
    
