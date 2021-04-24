@@ -10,7 +10,6 @@
 ?>
 
 <table>
-    <td class="link"> <input class="" id="closeSearch" type="button" value="x"> </td>
     <?php
     foreach ($result as $data) {
         echo '

@@ -9,9 +9,6 @@ $(document).ready(() => {
                 success: (res) => {
                     $('#data').empty();
                     $('#data').append(res);
-                    $('#closeSearch').click(() => {
-                        $('#data').empty();
-                    })
                 }
             });
         }
