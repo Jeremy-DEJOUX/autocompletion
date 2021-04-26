@@ -42,3 +42,5 @@
 </body>
 </html>
 
+<!--- J'ai pas réussis à faire la barre de recherche dans chaque page problème -->
+
