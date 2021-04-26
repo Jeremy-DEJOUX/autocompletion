@@ -6,7 +6,7 @@ if (isset($_GET['id'])) {
     $result = $conn->query($sql)->fetch(PDO::FETCH_ASSOC);
 ?>
     <h1> <?php echo $result["nom"], $result['prenom']; ?> </h1>
-    <table class="col-12" style="width: 100% !important;">
+    <table style="width: 100% !important;">
         <thead>
             <tr>
                 <th>Nom</th>
@@ -31,7 +31,7 @@ if (isset($_GET['id'])) {
     $result = $conn->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
-    <table class="col-12">
+    <table>
         <thead>
             <tr>
                 <th>Nom</th>
@@ -46,7 +46,7 @@ if (isset($_GET['id'])) {
             ?>
                 <tr>
                     <td>
-                        <h3><a href="index.php?id=<?php echo $result['id']; ?>"><?php echo $result["nom"], $result['prenom']; ?></a></h3>
+                        <h3><a class="search_name" href="index.php?id=<?php echo $result['id']; ?>"><?php echo $result["nom"], $result['prenom']; ?></a></h3>
                     </td>
                     <td><?php echo $result['nom']; ?></td>
                     <td><?php echo $result['prenom']; ?></td>
@@ -63,7 +63,7 @@ if (isset($_GET['id'])) {
     $result = $conn->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
-    <table class="col-12">
+    <table>
         <thead>
             <tr>
                 <th>Nom</th>
@@ -78,7 +78,7 @@ if (isset($_GET['id'])) {
             ?>
                 <tr>
                     <td>
-                        <h3><a href="index.php?id=<?php echo $result['id']; ?>"><?php echo $result["nom"], $result['prenom']; ?></a></h3>
+                        <h3><a class="search_name" href="index.php?id=<?php echo $result['id']; ?>"><?php echo $result["nom"], $result['prenom']; ?></a></h3>
                     </td>
                     <td><?php echo $result['nom']; ?></td>
                     <td><?php echo $result['prenom']; ?></td>
