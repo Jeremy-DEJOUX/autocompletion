@@ -3,11 +3,10 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : dim. 16 mai 2021 à 19:38
--- Version du serveur :  8.0.23
+-- Généré le : dim. 23 mai 2021 à 15:43
+-- Version du serveur :  8.0.21
 -- Version de PHP : 8.0.3
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -18,10 +17,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données : `autocompletion`
+-- Base de données : `jeremy-dejoux_autocompletion`
 --
-CREATE DATABASE IF NOT EXISTS `autocompletion` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
-USE `autocompletion`;
+CREATE DATABASE IF NOT EXISTS `jeremy-dejoux_autocompletion` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+USE jeremy-dejoux_autocompletion;
 
 -- --------------------------------------------------------
 
