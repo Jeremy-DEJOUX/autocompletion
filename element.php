@@ -1,5 +1,5 @@
 <?php
-$conn = new PDO("mysql:host=localhost;dbname=autocompletion;charset=UTF8", "root", "");
+$conn = new PDO("mysql:host=localhost;dbname=jeremy-dejoux_autocompletion;charset=UTF8", "Jeremy", "Minato6510");
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
     $sql = "SELECT * FROM stars WHERE id = $id ";

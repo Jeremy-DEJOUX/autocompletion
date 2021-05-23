@@ -4,7 +4,7 @@
         $search = $_GET['search'];
     }
 
-    $conn = new PDO("mysql:host=localhost;dbname=autocompletion;charset=UTF8", "root", "");
+    $conn = new PDO("mysql:host=localhost;dbname=jeremy-dejoux_autocompletion;charset=UTF8", "Jeremy", "Minato6510");
     $sql = "SELECT id, nom, prenom FROM stars WHERE nom LIKE '%$search%' OR prenom LIKE '%$search%'";
     $result = $conn->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 ?>
